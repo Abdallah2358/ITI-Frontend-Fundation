@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+
+<body>
+    <div style="text-align: left;">
+    
+        <fieldset style=" margin: auto; margin-top: 40vh; width: fit-content;">
+            <legend style="text-align: left; font-family: cursive ;color: red;">LogIn</legend>
+            <form action="page1.html">
+
+            <label for="Uname">User Name:</label>
+            <input type="text" id="Uname" name="Uname"><br><br>
+
+            <label for="pass">PassWord:</label>
+            <input type="password" id="pass" name="pass"><br><br>
+
+            <label for="loc">Select Your location</label>
+            <select name="location" id="loc">
+                <optgroup label="Africa">
+                    <option name="Egypt" id="Egypt">Egypt</option>
+                    <option name="Sudan" id="Sudan">Sudan</option>
+                    <option name="Namibia" id="Namibia">Namibia</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option name="Russia" id="Russia">Russia</option>
+                    <option name="Ukraine" id="Ukraine">Ukraine</option>
+                    <option name="Poland" id="Poland">Poland</option>
+                </optgroup>
+                <optgroup label="North America" disabled>
+                    <option name="Canada" id="Canada">Canada</option>
+                    <option name="Canada" id="Canada">Canada</option>
+                    <option name="Canada" id="Canada">Canada</option>
+                </optgroup>
+            </select>
+            <div>
+                <input accesskey="m" type="checkbox" name="RememberMe" id="RM">
+                <label for="RM">Remember<u>M</u>e</label>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+
+        </fieldset>
+    </div>
+</body>
+
+</html>

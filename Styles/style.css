@@ -1,0 +1,22 @@
+#wel {
+    font-family: 'Brush Script MT', cursive;
+    color: #d92976;
+    text-align: right;
+}
+
+body {
+    background-color: #ffd8d9;
+    text-align: center;
+}
+
+hr {
+    background-color: black;
+}
+
+#entr {
+    height: 100vh;
+    margin: auto;
+    display: block flex;
+    justify-content: center;
+
+}
